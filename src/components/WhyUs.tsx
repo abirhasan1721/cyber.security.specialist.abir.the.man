@@ -29,7 +29,7 @@ export default function WhyUs() {
     <section className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <header className="mb-20">
-          <h2 className="text-4xl md:text-5xl font-black uppercase text-center md:text-left">
+          <h2 className="text-4xl md:text-5xl font-black uppercase">
             Why Trusted <span className="text-cyber-blue">Advisor?</span>
           </h2>
         </header>

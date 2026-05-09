@@ -43,8 +43,7 @@ export default function Hero() {
         </p>
       </motion.div>
 
-      {/* Action Buttons */}
-      <motion.div
+      <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8 }}
@@ -66,8 +65,7 @@ export default function Hero() {
         </button>
       </motion.div>
 
-      {/* Scroll Indicator */}
-      <motion.div
+      <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
@@ -83,7 +81,6 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Decorative Scanner Bar */}
       <motion.div 
         animate={{ y: [0, 600, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
